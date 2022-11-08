@@ -32,21 +32,37 @@
 
   transition: border 250ms var(--timing-function), border-radius 250ms var(--timing-function);
 
-  &:hover, :focus, :active{
-border: 1px solid var(--hover-link-button-color);
-  border-radius: 4px;
-}
+  &:hover {
+    border: 1px solid var(--hover-link-button-color);
+    border-radius: 4px;
   }
+  &:focus {
+    border: 1px solid var(--hover-link-button-color);
+    border-radius: 4px;
+  }
+  :active {
+    border: 1px solid var(--hover-link-button-color);
+    border-radius: 4px;
+  }
+}
 
-  .clients__link{
-    &:hover, :focus, :active{
-      .clients__icon{
-fill: var(--hover-link-button-color);
-      }
+.clients__link {
+  &:hover {
+    .clients__icon {
+      fill: var(--hover-link-button-color);
     }
   }
-
-
+  &:focus {
+    .clients__icon {
+      fill: var(--hover-link-button-color);
+    }
+  }
+  &:active {
+    .clients__icon {
+      fill: var(--hover-link-button-color);
+    }
+  }
+}
 
 .clients__icon {
   fill: var(--basic-icon-color);

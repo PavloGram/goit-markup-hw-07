@@ -13,8 +13,10 @@
     padding-left: 0;
 }
 
-.works__list>li:not(:last-child) {
-    margin-right: 30px;
+.works__item {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .works__div {

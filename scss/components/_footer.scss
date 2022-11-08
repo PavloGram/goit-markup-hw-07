@@ -40,9 +40,13 @@
   color: var(--footer-link-color);
   transition: color 250ms var(--timing-function);
 
-  &:hover,
-  :focus,
-  :active {
+  &:hover {
+    color: var(--hover-link-button-color);
+  }
+  &:focus {
+    color: var(--hover-link-button-color);
+  }
+  &:active {
     color: var(--hover-link-button-color);
   }
 }
@@ -74,9 +78,15 @@
 
   transition: background 250ms var(--timing-function);
 
-  &:hover,
-  :focus,
-  :active {
+  &:hover {
+    background: var(--hover-link-button-color);
+    cursor: pointer;
+  }
+  &:focus {
+    background: var(--hover-link-button-color);
+    cursor: pointer;
+  }
+  &:active {
     background: var(--hover-link-button-color);
     cursor: pointer;
   }
