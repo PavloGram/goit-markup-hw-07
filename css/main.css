@@ -95,13 +95,6 @@ body {
   color: var(--basic-text-color);
 }
 
-.works-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 94px;
-}
-
 .button {
   font-weight: 700;
   font-size: 16px;
@@ -1135,6 +1128,13 @@ body {
   fill: var(--basic-icon-color);
   -webkit-transition: fill 250ms var(--timing-function);
   transition: fill 250ms var(--timing-function);
+}
+
+.works-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 94px;
 }
 
 .works__title {
